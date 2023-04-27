@@ -7,12 +7,12 @@ The project's goal is to have a led strip on the wardrobe that turns in when the
 ## Hardware
 
 To complete the project, we'll need the following hardware:
-NodeMCU ESP8266
-Led strip WS8211
-Resistor 220 ohm
-6x Door sensor
-12V Power supply
-3.3V Power supply
+- NodeMCU ESP8266
+- Led strip WS8211
+- Resistor 220 ohm
+- 6x Door sensor
+- 12V Power supply
+- 3.3V Power supply
 
 The circuit is straightforward, and the NodeMCU provide enough IO ports so we can attach the sensors directly to it. I'm using D4 to connect the led strip with a resistor for stabilisation. I've connected the door sensors
  to ports D0, D1, D2, D3, D5 and D6.
